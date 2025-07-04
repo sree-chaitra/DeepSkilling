@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- Enable AOP -->
+    <aop:aspectj-autoproxy />
+
+    <!-- Register Aspect -->
+    <bean id="executionLogger" class="com.booktracker.aspect.ExecutionLogger" />
+
+    <!-- Register Repository -->
+    <bean id="bookDatabase" class="com.booktracker.repository.BookDatabase" />
+
+    <!-- Register Service -->
+    <bean id="bookProcessor" class="com.booktracker.service.BookProcessor">
+        <property name="bookDatabase" ref="bookDatabase" />
+    </bean>
+
+</beans>

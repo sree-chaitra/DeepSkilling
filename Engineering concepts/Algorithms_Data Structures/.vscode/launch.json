@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FinancialForecasting",
+            "request": "launch",
+            "mainClass": "FinancialForecasting.FinancialForecasting",
+            "projectName": "InventoryManagementSystem_e7ec74c0"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "EmployeeManagement.Employee",
+            "projectName": "InventoryManagementSystem_e7ec74c0"
+        },
+        {
+            "type": "java",
+            "name": "Task",
+            "request": "launch",
+            "mainClass": "TaskManagementSystem.Task",
+            "projectName": "InventoryManagementSystem_e7ec74c0"
+        },
+        {
+            "type": "java",
+            "name": "LibrarySystem",
+            "request": "launch",
+            "mainClass": "LibraryManagementSystem.LibrarySystem",
+            "projectName": "InventoryManagementSystem_e7ec74c0"
+        },
+        {
+            "type": "java",
+            "name": "TaskManager",
+            "request": "launch",
+            "mainClass": "TaskManagementSystem.TaskManager",
+            "projectName": "InventoryManagementSystem_e7ec74c0"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeManager",
+            "request": "launch",
+            "mainClass": "EmployeeManagement.EmployeeManager",
+            "projectName": "InventoryManagementSystem_e7ec74c0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "SortCustomerOrders.Main",
+            "projectName": "InventoryManagementSystem_e7ec74c0"
+        },
+        {
+            "type": "java",
+            "name": "Run EcommerceSearch",
+            "request": "launch",
+            "mainClass": "EcommerceSearch",
+            "projectName": "InventoryManagementSystem_e7ec74c0"
+        },
+        {
+            "type": "java",
+            "name": "Run Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Run InventoryManagementSystem",
+            "request": "launch",
+            "mainClass": "InventoryManagementSystem",
+            "projectName": "InventoryManagementSystem_e7ec74c0"
+        }
+    ]
+}

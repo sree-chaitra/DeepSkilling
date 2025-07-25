@@ -1,0 +1,6 @@
+spring:
+  security:
+    jwt:
+      secret: RW$UuRKK0O7REGF*@#PgpSTk6AG$!zZ^
+server:
+  port: 8082

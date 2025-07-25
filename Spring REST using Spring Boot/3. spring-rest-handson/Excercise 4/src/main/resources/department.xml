@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dept1" class="com.example.department.model.Department">
+        <constructor-arg value="HR"/>
+    </bean>
+
+    <bean id="dept2" class="com.example.department.model.Department">
+        <constructor-arg value="Engineering"/>
+    </bean>
+
+    <bean id="dept3" class="com.example.department.model.Department">
+        <constructor-arg value="Finance"/>
+    </bean>
+
+    <bean id="departmentList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="dept1"/>
+                <ref bean="dept2"/>
+                <ref bean="dept3"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="departmentDao" class="com.example.department.dao.DepartmentDao">
+        <constructor-arg ref="departmentList"/>
+    </bean>
+</beans>

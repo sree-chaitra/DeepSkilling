@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 100px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-box {
+  background-color: green;
+}
+
+.exit-box {
+  background-color: crimson;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

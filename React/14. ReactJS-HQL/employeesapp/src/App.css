@@ -1,0 +1,35 @@
+
+a {
+  display: inline-block;
+  margin:3px 5px;
+  padding: 5px 5px;
+  border-radius: 3px;
+ text-decoration: none;
+}
+a.dark{
+background-color: #333;
+color:#eee;
+}
+a.light{
+ background-color: #eee;
+ color:#333;
+}
+
+.btn-light {
+  background-color: #eee;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
